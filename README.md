@@ -1,13 +1,6 @@
-![logo](https://github.com/sahilatahar/Code-Sync/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e)
+# CodeSync
 
 A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
-
-![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync?style=for-the-badge&color=48bf21)
-![GitHub Repo stars](https://img.shields.io/github/stars/sahilatahar/Code-Sync?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/sahilatahar/Code-Sync?style=for-the-badge&color=d7af2d)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/sahilatahar/Code-Sync?style=for-the-badge&color=f47373)
-![GitHub License](https://img.shields.io/github/license/sahilatahar/Code-Sync?style=for-the-badge&color=e67234)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsahilatahar%2FCode-Sync&label=Repo%20Views&countColor=%2337d67a&labelStyle=upper)
 
 ## 🔮 Features
 
@@ -107,20 +100,20 @@ You can view the live preview of the project [here](https://code-sync-live.verce
 
    ```bash
    # Pull Backend Image
-   docker pull sahilatahar/code-sync-server:latest
+   docker pull code-sync-server:latest
 
    # Pull Frontend Image
-   docker pull sahilatahar/code-sync-client:latest
+   docker pull code-sync-client:latest
    ```
 
 3. **Run Docker Containers:**
 
    ```bash
    # Run Backend Container (Port 3000)
-   docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
+   docker run -d -p 3000:3000 --name code-sync-server code-sync-server:latest
 
    # Run Frontend Container (Port 5173)
-   docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
+   docker run -d -p 5173:5173 --name code-sync-client code-sync-client:latest
    ```
 
 4. **Access the application:**
@@ -161,35 +154,6 @@ Special thanks to:
   - [Pollinations Repository](https://github.com/pollinations/pollinations)
   - [Pollinations Docs](https://pollinations.ai/)
 
-## ✍️ About Developer
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top">
-        <img src="https://github.com/sahilatahar.png" width="120px;" alt="Sahil Atahar"/>
-        <br />
-        <b>Sahil Atahar</b>
-      </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/sahilatahar">
-            <img src="https://img.shields.io/badge/GitHub-100000.svg?style=for-the-badge&logo=github&logoColor=white"/>
-            </a>
-            <br/>
-            <a href="https://linkedin.com/in/sahilatahar">
-            <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
-            </a>
-        </td>
-    </tr>
-  </tbody>
-</table>
-
-## 👥 Collaborators
-
-<a href="https://github.com/sahilatahar/Code-Sync/graphs/contributors">
-   <img src="https://contrib.rocks/image?repo=sahilatahar/Code-Sync" />
-</a>
 
 

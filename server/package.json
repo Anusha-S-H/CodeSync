@@ -1,7 +1,7 @@
 {
 	"name": "code-sync-server",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A collaborative, real-time code editor server",
 	"main": "dist/server.js",
 	"scripts": {
 		"dev": "nodemon --exec ts-node src/server.ts",
@@ -9,7 +9,7 @@
 		"build": "tsc"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "You",
 	"license": "ISC",
 	"dependencies": {
 		"cors": "^2.8.5",
